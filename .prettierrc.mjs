@@ -3,7 +3,7 @@ export default {
   plugins: ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
   overrides: [
     {
-      files: "*.astro",
+      files: ["*.astro", "*.svelte"],
       options: {
         parser: "astro",
       },
